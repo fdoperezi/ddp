@@ -1,3 +1,5 @@
+library(shiny)
+
 shinyUI(pageWithSidebar(
   headerPanel("Exploring The Beta Density"),
   sidebarPanel(

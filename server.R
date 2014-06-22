@@ -1,4 +1,5 @@
 library(shiny)
+
 pvals <<- seq(0.01, 0.99, length = 1000)
 
 shinyServer(
